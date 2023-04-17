@@ -1,0 +1,76 @@
+*{
+    padding: 0px;
+    margin:0px;
+}
+.dado{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.cara-dado{
+    display:flex;
+    
+    width:150px;
+    height:150px;
+    background-color: black;
+    margin:20px;
+}
+
+.punto{
+    display:flex;
+    background-color: white;
+    width: 25px;
+    height:25px;
+    margin: 10px;
+    border-radius: 50%;
+    
+}
+
+.d1{
+    justify-content:center;
+    align-items: center;
+}
+
+.d2{
+    justify-content: space-between;
+}
+
+.p1{
+    flex-direction: column;
+}
+.p2{
+    flex-direction: column-reverse;
+    align-self:flex-end;  
+}
+.d3{
+    justify-content: space-between;
+}
+
+.p3{
+    align-self: center;
+}
+.p4{
+    flex-direction: column-reverse;
+    align-self: flex-end;
+}
+
+.d4{
+    justify-content: space-between;
+}
+.columna{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.d5{
+    justify-content: space-between;
+    
+}
+.p5{
+    align-self: center;
+}
+.d6{
+    justify-content: space-between;
+}
+
